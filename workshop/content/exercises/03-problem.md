@@ -7,6 +7,8 @@
     autostart: true
     ```
 
+    _Note_: Remember to set the environment variable REDIS_PASSWORD, required by this particular image.
+
 <div style="margin-top: 5em;"></div>
 
 ```section:begin
