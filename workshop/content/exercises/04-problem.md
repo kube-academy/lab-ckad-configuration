@@ -1,5 +1,5 @@
 
-1. Create a pod manifest file ``limited-pod.yaml``{{copy}} with name ``limited-pod``{{copy}} and image ``bitnami/kubectl``{{copy}}. Set memory request at `100Mi` and limit at `200Mi`. You do not need to create the pod.
+1. Create a Pod manifest file ``limited-pod.yaml``{{copy}} with name ``limited-pod``{{copy}} and image ``bitnami/kubectl``{{copy}}. Set memory request at `100Mi` and limit at `200Mi`. _You do not need to create the Pod._
 
     ```examiner:execute-test
     name: conf-limited-pod
