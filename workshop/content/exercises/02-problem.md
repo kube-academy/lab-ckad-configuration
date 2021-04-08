@@ -13,7 +13,7 @@ cascade: true
     title: Verify that the config map exists
     ```
 
-    Expose the value of `al-user` to a pod named `al-pod` as the environment variable name `AL_USER`. Use `bitnami/redis` as the image for the pod.
+    Expose the value of `al-user` to a pod named ``al-pod``{{copy}} as the environment variable name `AL_USER`. Use ``bitnami/redis``{{copy}} as the image for the pod.
 
     Note: To function, the `bitnami/redis` [requires setting the environment variable named REDIS_PASSWORD](https://github.com/bitnami/bitnami-docker-redis#setting-the-server-password-on-first-run)
 

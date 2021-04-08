@@ -1,9 +1,9 @@
 
-1. Create a secret `db-secret` with value `MYSQL_ROOT_PASSWORD=YoYoSecret` and `MYSQL_PASSWORD=XoXoPassword`.
+1. Create a secret ``db-secret``{{copy}} with value ``MYSQL_ROOT_PASSWORD=YoYoSecret``{{copy}} and ``MYSQL_PASSWORD=XoXoPassword``{{copy}}.
 
-1. Create a configmap named `db-config` with value `MYSQL_USER=k8s` and `MYSQL_DATABASE=newdb`.
+1. Create a configmap named ``db-config``{{copy}} with value ``MYSQL_USER=k8s``{{copy}} and ``MYSQL_DATABASE=newdb``{{copy}}.
 
-1. Create a pod named `mydb` with image `bitnami/mysql` and expose all values of `db-secret` and `db-config` as environment variables to the pod.
+1. Create a pod named ``mydb``{{copy}} with image ``bitnami/mysql``{{copy}} and expose all values of `db-secret` and `db-config` as environment variables to the pod.
 
 ```examiner:execute-test
 name: conf-db-pod

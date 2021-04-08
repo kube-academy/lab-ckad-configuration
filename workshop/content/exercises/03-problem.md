@@ -1,5 +1,5 @@
 
-1. Create a Pod named `secure-pod`. Use the `bitnami/redis` image. Run pod as user 1000 and group 2000.
+1. Create a Pod named ``secure-pod``{{copy}}. Use the ``bitnami/redis``{{copy}} image. Run pod as user 1000 and group 2000.
 
     ```examiner:execute-test
     name: conf-secure-pod

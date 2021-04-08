@@ -1,7 +1,7 @@
 
-1. Create a service account named `namaste`.
+1. Create a service account named ``namaste``{{copy}}.
 
-1. Use the service account to create a `yo-namaste` pod with `bitnami/nginx` image.
+1. Use the service account to create a Pod named ``yo-namaste``{{copy}} with image ``bitnami/nginx``{{copy}}.
 
 ```examiner:execute-test
 name: conf-pod-sa

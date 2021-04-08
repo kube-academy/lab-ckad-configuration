@@ -1,5 +1,5 @@
 
-1. Create a config map with the name `my-config` and value `confa=exvalue`.
+1. Create a config map with the name ``my-config``{{copy}} and value ``confa=exvalue``{{copy}}.
 
     ```examiner:execute-test
     name: conf-config-map
